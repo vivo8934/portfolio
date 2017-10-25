@@ -1,0 +1,37 @@
+
+.Header{
+  border-bottom: 100%;
+   border-bottom-color: #546b91;
+   background-color: #546b91;
+   height: 100px;
+   width: 100%;
+}
+.Header h1{
+  color: #fff;
+  text-shadow: 4px 2px 8px #fff;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  margin: 0.8% 0%;
+  font-size: 190%;
+  text-align: center;
+  background-image: url('port.gif');
+  width: 100%;
+}
+.frontEnd h3{
+  font-size: 150%;
+  text-transform: uppercase;
+  font-family: 'Raleway', Arial;
+}
+
+ img{
+ width: 20%;
+ height: 10%;
+}
+li{
+  display: inline;
+  margin: 0 1.5%;
+text-align: center
+}
+ul{
+  display: block;
+}
