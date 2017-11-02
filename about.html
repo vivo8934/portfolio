@@ -1,38 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 40%;
-    border-radius: 5px;
-    margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
 }
 
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+.title {
+  color: grey;
+  font-size: 18px;
 }
 
-img {
-    border-radius: 5px 5px 0 0;
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
 }
 
-.container {
-    padding: 2px 16px;
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
 }
 </style>
 </head>
 <body>
 
+<h2 style="text-align:center">Profile Card</h2>
+
 <div class="card">
-  <img src="https://scontent-jnb1-1.xx.fbcdn.net/v/t1.0-9/1240401_648456188539057_1720248911_n.jpg?_nc_eui2=v1%3AAeGTUxwAOJfOREEy_PrOFgrHOAnVe7oDldLIrNu584RDZ3tm9ayyHRxwoVohkipK9doHiWZk4RX9jlSJ7tOz3zZs_ebFN_SR3MU77fT40jKMOg&oh=9d437d3063d94297d6318cbae5ce2ed8&oe=5AAB722F" alt="Avatar" style="width:80%">
-  <div class="container">
-    <h4><b>Mfundo Ngqanekana</b></h4>
-    <h4><b>mfundo@projectcodex.co</b></h4>
-    <h4><b>0797738994/ 062 3023 22</b></h4>
-    <p>entry level software developer</p>
-  </div>
+  <img src="https://scontent-jnb1-1.xx.fbcdn.net/v/t1.0-9/10003459_709962595721749_2123325102_n.jpg?_nc_eui2=v1%3AAeEGGvyzpQVhjuI4EFGemsNHLrlzyP_uugquNU37zMfKXFpm7TUSVadKRGIPGi0mwMkLzn5aNQJxyfA0KLoipQ4XWyDiAJKmJYClVoHxmr2ILw&oh=e43c4bd79561ebef0689f755d492d386&oe=5AA45100" alt="John" style="width:100%">
+  <h1>Mfundo Ngqanekana</h1>
+  <p class="title">Entry level Developer</p>
+  <p><strong>ProjectCodex</strong></p>
+  <div style="margin: 24px 0;">
+    <a href="https://twitter.com/mfundo8934"><i class="fa fa-twitter"></i></a>
+    <a href="https://www.linkedin.com/in/mfundo-ngqanekana/"><i class="fa fa-linkedin"></i></a>
+    <a href="https://www.facebook.com/ngqanekana"><i class="fa fa-facebook"></i></a>
+ </div>
+ <p>Email: Mfundo@projectcodex.co</p>
+ <p>Phone: 0797738994/ 0623023229</p>
 </div>
 
 </body>
